@@ -1,0 +1,46 @@
+#dice-game-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.player-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-btn {
+    width: 110px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-btn > p {
+    font-weight: 700;
+    font-size: 15pt;
+}
+
+#left-dice-holder .game-btn {
+    background-color: green;
+}
+
+#right-dice-holder .game-btn {
+    background-color: red;
+}
+
+.score-holder {
+    font-size: 20pt;
+}
+
+.btn-holder {
+    display: flex;
+    gap: 2vw;
+}
