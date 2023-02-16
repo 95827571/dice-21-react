@@ -83,7 +83,7 @@ export default function DiceGame() {
 
         if (playerOneHolding && playerTwoHolding) {
             setIsGameOver(true);
-            console.log(`THE WINNER IS ${closestToGoal}`);
+            console.log(`THE WINNER IS PLAYER ${closestToGoal} WITH A VALUE OF ${currentPlayerValues[closestToGoal]}`);
         }
     }, [currentPlayerValues, playerOneHolding, playerTwoHolding]);
 
